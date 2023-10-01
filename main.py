@@ -8,10 +8,7 @@ screen.addshape(image)
 
 turtle.shape(image)
 data = pandas.read_csv("50_states.csv")
-# def get_mouse_click_coor(x,y):
-#     print(x, y)
-# turtle.onscreenclick(get_mouse_click_coor)
-# turtle.mainloop()
+
 guessed_states = []
 all_states = data.state.to_list()
 while len(guessed_states) < 50:
